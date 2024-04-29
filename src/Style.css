@@ -1,0 +1,86 @@
+/* universal styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* .bg-transparent{
+    /* background-color: transparent !important; */
+    /* background-color: black; */
+/* } */ 
+.bg-black{
+    background-color: #121111c8;
+    color: #ffffffd3 !important;
+}
+.nav-item>.nav-link{
+    color: #fff !important;
+}
+.nav-item>.bi{
+    color: #ffffffe3 !important;
+}
+
+/* row stylings */
+.transparent .arrowleft{
+   
+    color: white;
+    width: 50px;
+    height: 80px;
+}
+.transparent .arrowright{
+   
+    color: white;
+    width: 50px;
+    height: 80px;
+
+}
+.transparent{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.transparent:hover .arrowleft{
+    background-color: rgba(240,248,255,0.1);
+    visibility: visible;
+}
+.transparent:hover .arrowright{
+    background-color: rgba(240,248,255,0.1);
+    visibility: visible;
+}
+.arrowleft,.arrowright{
+    visibility: hidden;
+}
+.banner{
+    background-position: center center;
+    background-size: cover ;
+    height:875px;
+    /* width:215vh; */
+    width: 100%;
+}
+.info{
+    position: absolute;
+    top: 500px;
+    background-color: transparent;
+
+}
+.info,h3,p,button{
+    background-color: transparent;
+    color: white;
+}
+#btn{
+    background: transparent;
+}
+/* .banner img:hover{
+    transform: scale(10px);
+
+
+} */
+
+.img{
+    transition: transform 0.3s linear;
+}
+.img:hover{
+    transform: scale(1.1);
+}
